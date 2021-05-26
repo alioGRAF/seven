@@ -117,7 +117,7 @@ var main = function (toDoObjects) {
 };	
 
 $(document).ready(function () {
-	$.getJSON("todos.json", function (toDoObjects) {
+	$.getJSON("todos.OLD.json", function (toDoObjects) {
 	// вызов функции main с аргументом в виде объекта toDoObjects 
 		main(toDoObjects);
 	});
